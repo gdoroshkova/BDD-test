@@ -1,0 +1,2 @@
+Composite: When I fill $email in the registration form
+When I enter `<email>` in field located `By.xpath(//*[@id="email"])`
