@@ -1,2 +1,9 @@
-Composite: When I fill $email in the registration form
+Composite: When I enter `$email` in the registration form
 When I enter `<email>` in field located `By.xpath(//*[@id="email"])`
+
+Composite: When I login
+When I enter 'doroshkovag@ya.ru' in a field by the xpath '//*[@id="user"]'
+When I click on an element by the xpath '//*[@id="login"]'
+When I click on an element by the xpath '//*[@id="login-submit"]'
+When I enter '098_Halk' in a field by the xpath '//*[@id="password"]'
+When I click on an element by the xpath '//*[@id="login-submit"]'

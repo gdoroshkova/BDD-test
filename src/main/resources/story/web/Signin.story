@@ -1,5 +1,6 @@
 Description: Sign in scenario and visual checks;
-
+Meta:
+@skip
 Scenario: Sign in
 Given I am on a page with the URL 'https://trello.com'
 When I click on an element by the xpath '//a[@href='/login']'
